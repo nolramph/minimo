@@ -4,6 +4,7 @@ var gulp = require('gulp'),
 	concat = require('gulp-concat');
 
 var coffeeSources = ['components/coffee/tagline.coffee'] ;		
+//var coffeeSources = ['components/coffee/*.coffee'] ; //Get all file with .coffee extensions
 var jsSources = [
 	'components/scripts/rclick.js',
 	'components/scripts/pixgrid.js',
